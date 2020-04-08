@@ -1,0 +1,440 @@
+body{ 
+	background-image:url(imagini/textura.jpg);
+} 
+
+div#first{
+	background-color: LightGoldenrodYellow;
+	position:absolute;
+	width: 912px;
+	left: 50%;
+	top: 0px;
+	margin-left: -456px;
+	border: solid black 1px;
+	text-align:left;
+}
+div#first h1{
+	text-align:center;
+}
+/*aici de lucrat la font*/
+
+div#trei h2{
+text-align:right;
+}
+
+div#princi{
+	margin-top:80px;
+	text-align:left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+div#first nav ul{
+	float: left;
+}
+div#first nav ul li a{
+	display:block;
+	font-size:20px;
+	padding:10px 14px;
+	text-decoration:none;
+	
+}
+div#first nav{
+	width: 912px;
+	height: 60px;
+	background-color: white;
+	position:fixed;
+}
+div#first nav p {
+	font-size: 24px;
+	line-height: 20px;
+	float: left;
+	padding: 0px 20px;
+}
+
+ul#submeniu1 li ul#submeniu2{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#submeniu1 li:hover ul#submeniu2{
+	display:block;
+	position:absolute;
+	padding-left:1px;
+	padding-right:1px;
+	top:0px;
+	margin-left:100px;
+
+}
+
+ul#meniu li ul#submeniu1{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#meniu li:hover ul#submeniu1{
+	display:block;
+	padding-left:1px;
+	padding-right:1px;
+}
+ul#submeniu1 li{
+	width:100px;
+	border-radius:4px;
+	
+}
+ul#submeniu1 li a{
+
+	padding:8px 24px;
+	
+	
+}
+
+ul#sub_princ {
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#meniu li:hover ul#sub_princ{
+	display:block;
+	padding-left:1px;
+	padding-right:1px;
+	
+}
+
+/*ul#meniu a:hover{
+	background-color:#f3f3f3;
+	
+}*/
+/* poate de schimbat */
+ul#meniu li:hover > a{
+	background-color:wheat;
+	
+}
+
+
+/* poate de schimbat */
+ul#meniu li:hover a:hover{
+	background-color:NavajoWhite;
+	
+}
+
+
+ul#meniu li{
+	float:left;
+	list-style:none;
+	position:relative;
+}
+	
+
+div#cinci h2{
+	text-align:right;
+}
+
+ul#submeniu1 li ul#submeniul3{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#submeniu1 li:hover ul#submeniul3{
+	display:block;
+	position:absolute;
+	padding-left:1px;
+	padding-right:1px;
+	top:0px;
+	margin-left:100px;
+}
+ul#submeniu1 li ul#submeniul3 li{
+	width:100px;
+}
+
+ul#submeniu1 li ul#submeniul4{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#submeniu1 li:hover ul#submeniul4{
+	display:block;
+	position:absolute;
+	padding-left:1px;
+	padding-right:1px;
+	top:0px;
+	margin-left:100px;
+}
+ul#submeniu1 li ul#submeniul4 li{
+	width:150px;
+}
+
+ul#meniu li p{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+	top:20px;
+	width:230px;
+	color:Gray;
+}
+ul#meniu li:hover p{
+	display:block;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+ul#submeniul3 li ul#regiune1{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-color:solid black 1px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#submeniul3 li:hover ul#regiune1{
+	display:block;
+	position:absolute;
+	padding-left:1px;
+	padding-right:1px;
+	top:0px;
+	margin-left:100px;
+}
+ul#submeniul3 li ul#regiune1 li{
+	width:150px;
+}
+
+ul#submeniul3 li ul#regiune2{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#submeniul3 li:hover ul#regiune2{
+	display:block;
+	position:absolute;
+	padding-left:1px;
+	padding-right:1px;
+	top:0px;
+	margin-left:100px;
+}
+ul#submeniul3 li ul#regiune2 li{
+	width:120px;
+}
+
+ul#submeniul3 li ul#regiune3{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#submeniul3 li:hover ul#regiune3{
+	display:block;
+	position:absolute;
+	padding-left:1px;
+	padding-right:1px;
+	top:0px;
+	margin-left:100px;
+}
+ul#submeniul3 li ul#regiune3 li{
+	width:120px;
+}
+
+ul#submeniul3 li ul#regiune4{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:1px 14px;
+	border-radius:0px 0px 8px 8px;
+}
+ul#submeniul3 li:hover ul#regiune4{
+	display:block;
+	position:absolute;
+	padding-left:1px;
+	padding-right:1px;
+	top:0px;
+	margin-left:100px;
+}
+ul#submeniul3 li ul#regiune4 li{
+	width:135px;
+}
+
+#text1{
+background-size:100%;
+border:solid black 1px;
+padding:2px;
+background-position:center;
+}
+#text1 p{
+	display:none;
+	position:absolute;
+	padding:0px 0px;
+	top:40px;
+	width:296px;
+	height:166.5px;
+	color:white;
+	margin-top:-3px;
+	margin-left:-3px;
+	
+}
+#text1:hover p{
+	display:block;
+	background-color:rgba(0,0,0,0.6);
+	position:initial;
+	overflow:hidden;
+}
+#text2{
+background-size:cover;
+border:solid black 1px;
+padding:2px;
+background-position:center;
+}
+#text2 p{
+	display:none;
+	position:absolute;
+	padding:0px 0px;
+	top:40px;
+	width:346px;
+	height:206.5px;
+	color:white;
+	margin-top:-3px;
+	margin-left:-3px;
+}
+#text2:hover p{
+	display:block;
+	background-color:rgba(0,0,0,0.6);
+	position:initial;
+	overflow:hidden;
+}
+#text3{
+background-size:cover;
+border:solid black 1px;
+padding:2px;
+background-position:center;
+}
+#text3 p{
+	display:none;
+	position:absolute;
+	padding:0px 0px;
+	top:40px;
+	width:306px;
+	height:226.5px;
+	color:white;
+	margin-top:-3px;
+	margin-left:-3px;
+}
+#text3:hover p{
+	display:block;
+	background-color:rgba(0,0,0,0.6);
+	position:initial;
+	overflow:hidden;
+}
+#text4{
+background-size:cover;
+border:solid black 1px;
+padding:2px;
+background-position:center;
+}
+#text4 p{
+	display:none;
+	position:absolute;
+	padding:0px 0px;
+	top:40px;
+	width:276px;
+	height:206.5px;
+	color:white;
+	margin-top:-3px;
+	margin-left:-3px;
+}
+#text4:hover p{
+	display:block;
+	background-color:rgba(0,0,0,0.6);
+	position:initial;
+	overflow:hidden;
+}
+#text5{
+background-size:cover;
+border:solid black 1px;
+padding:2px;
+background-position:center;
+}
+#text5 p{
+	display:none;
+	position:absolute;
+	padding:0px 0px;
+	top:40px;
+	width:376px;
+	height:226.5px;
+	color:white;
+	margin-top:-3px;
+	margin-left:-3px;
+}
+#text5:hover p{
+	display:block;
+	background-color:rgba(0,0,0,0.6);
+	position:initial;
+	overflow:hidden;
+}
+/*#text1:after {
+	position:absolute;
+	top:140px;
+	bottom:95.2%;
+	left:65px;
+	right:615px;
+	word-wrap:break-word;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	padding:8px;
+	opacity:0;
+	content:attr(textul);
+	transition:0.5s;
+	
+}
+#text1:hover:after{
+opacity:1;	
+	
+}
+*/
+/*#text1 {
+background-size:100%;
+border:solid black 1px;
+padding:2px;
+transition:0.5s;
+background-position:center;
+
+
+}
+#text1:hover inn{
+	background-size:110%;
+	
+}
+#text1:after{
+	position:initial;
+	top:140px;
+	bottom:95.2%;
+	left:65px;
+	right:615px;
+	background-color:rgba(0,0,0,0.6);
+	word-wrap:break-word;
+	overflow:hidden;
+	color:white;
+	padding:8px;
+	opacity:0;
+	transition:0.5s;
+	
+}
+#text1:hover:after{
+opacity:1;	
+
+	
+}*/
+/*adaugarea urmatoarelor diviziuni corespunzatoare continentelor*/
+
